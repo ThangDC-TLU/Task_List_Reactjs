@@ -1,0 +1,55 @@
+/* Xác nhận xóa */
+.box3{
+    background-color: rgba(0, 0, 0, .4);
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.confirm_delete{
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgb(29, 110, 224);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #f0efef;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+
+.confirm_delete p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.btn-confirm_delete{
+    text-align: center;
+}
+
+.btn-confirm_delete button{
+    width: 100px;
+    height: 40px;
+    margin: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-delete{
+    background-color: rgb(29, 110, 224);
+    color: #fff;
+}
+
+.btn-cancel{
+    background-color: #ccc;
+
+}

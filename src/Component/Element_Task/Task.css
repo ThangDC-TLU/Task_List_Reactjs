@@ -1,0 +1,76 @@
+.task-list{
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    align-items: center;
+    /* justify-content: space-between; */
+    position: relative;
+}
+
+.task-name{
+    width: 180px;
+    margin-right: 20px;
+}
+
+.task-column{
+    overflow-wrap: break-word;
+}
+
+.priority{
+    width: 140px;
+}
+
+
+.task-name, .priority{
+    display: flex;
+    flex-direction: column;
+}
+
+.task-column{
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.task-name span, .priority span{
+    font-size: 13px;
+    color: #ccc;
+}
+
+
+.status button{
+    min-width: 60px;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    line-height: 25px;
+    color: #515050;
+}
+
+.task_function{
+    position: absolute;
+    right: 20px;
+}
+
+.task_function button{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-size: 15px;
+}
+
+.delete{
+    color: rgba(255, 0, 0, 0.594);
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.edit{
+    cursor: pointer;
+}

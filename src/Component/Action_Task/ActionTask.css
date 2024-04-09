@@ -1,0 +1,110 @@
+.box2{
+    background-color: rgba(0, 0, 0, .4);
+    position: fixed;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.Add-Task{
+    width: 500px;
+    height: 230px;
+    border: 1px solid rgb(29, 110, 224);
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #f0efef;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.add-task-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-exit{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.add-task-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.add-task-input-title{
+    font-size: 15px;
+    color: #6d6c6c;
+}
+
+.errorMessage{
+    color: red;
+    font-size: 12px;
+}
+
+
+.add-task-input input{
+    width: 100%;
+    padding: 0 10px;
+    line-height: 25px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.add-task-priority span{
+    font-size: 15px;
+    color: #6d6c6c;
+}
+
+.add-task-priority .select-priority{
+    padding: 10px 0;
+}
+
+.select-priority button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.select-priority .high{
+    border: 1px solid red;
+    color: red;
+}
+
+.select-priority .medium{
+    border: 1px solid gold;
+    color: gold;
+}
+
+.select-priority .low{
+    border: 1px solid green;
+    color: green;
+}
+
+.submit{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.btn-submit{
+    width: 60px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background-color: #747272;
+    color: #fff;
+    border-radius: 10px;
+}
